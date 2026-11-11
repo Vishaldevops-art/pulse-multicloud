@@ -1,0 +1,6 @@
+apiVersion: v2
+name: pulse-api
+description: Capstone demo service deployed to AKS and EKS
+type: application
+version: 0.1.0
+appVersion: "dev"

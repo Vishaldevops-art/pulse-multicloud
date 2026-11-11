@@ -1,0 +1,21 @@
+# Terraform
+.terraform/
+*.tfstate
+*.tfstate.*
+*.tfplan
+crash.log
+*.auto.tfvars
+terraform.tfvars
+backend.hcl
+# keep .terraform.lock.hcl committed
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+.pytest_cache/
+
+# Kube / secrets
+kubeconfig*
+*.pem
+.env
